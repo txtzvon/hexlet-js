@@ -1,16 +1,23 @@
 {
   "name": "hexlet",
   "version": "1.0.0",
+  "type": "module",
   "description": "Мой первый проект на Хекслете",
   "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/txtzvon/hexlet-js.git"
   },
-  "author": "zvonarev dmitry",
+  "author": "zvonarev",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/txtzvon/hexlet-js/issues"
